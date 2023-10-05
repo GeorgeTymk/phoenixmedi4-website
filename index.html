@@ -11,20 +11,25 @@
 </head>
 <body>
     <div class="imghead">
-        <img src="Images/top22.jpg" alt="">
+        <div class="imghead1">
+            <img src="Images/top22.jpg" alt="">
+        </div>
         <div class="bin">
             <div class="logo">
                 <img src="Images/Phoenix Media Logo White.png" alt="">
             </div>
+
+            <div class="name">
+                <h1>Phoenix Media</h1>
+            </div>
+            
             <nav>
                 <ul id="menuList">
                     <li><a href="index.html"><i class="fa fa-home">&nbsp;</i>HOME</a></li>
                     <li><a href="about.html"><i class="fa fa-info">&nbsp;</i>ABOUT</a></li>
                 </ul>
             </nav>
-            <div class="name">
-                <h1>Phoenix Media</h1>
-            </div>
+            
             <div class="imgclick">
                 <img src="Images/Menu.png" class="menu-icon" 
                 onclick="togglemenu()">
@@ -73,13 +78,15 @@
         </div>-->
     </div>
 
-    <div class="container">
+    <form action="https://drive.google.com/file/d/1QmpJEJOTLOdJpnD_M9BYBejN6rACs-WJ/view?usp=sharing">
+        <div class="container">
 
-        <div class="button">
-            <button type="button"> <a href="https://drive.google.com/file/d/1QmpJEJOTLOdJpnD_M9BYBejN6rACs-WJ/view?usp=sharing">VIEW OUR PORTIFOLIO</a> <i class="fa fa-long-arrow-left"></i></button>
+            <div class="button">
+                <button type="submit"> VIEW OUR PORTIFOLIO <i class="fa fa-long-arrow-left"></i></button>
+            </div>
+    
         </div>
-
-    </div>
+    </form>
 
     <div class="tins">
         <div class="tinstxt">
@@ -128,15 +135,14 @@
                 </ul>
             </div>
             <div class="emailbox">
-                <h3>Email Us</h3>
                 <div class="contente">
                     <form action="https://formspree.io/f/xrgwynap" method="POST">
                         <div class="email">
-                            <div class="etext">Email *</div>
-                            <input type ="Email" class="emailr" name="Email" placeholder="Enter your Email Address" required>
+                            <label for=""> <b>Email </b> </label>
+                            <input type="Email"  name="Email" placeholder="Enter your Email Address" required>
                         </div>
                         <div class="msge">
-                            <div class="msgtext">Message *</div>
+                            <div class="msgtext"></div>
                             <textarea class="textarea" name="Message" rows="4" cols="22" placeholder="Enter your Message" required></textarea>
                         </div>
                         <div class="sendbtn">
@@ -145,27 +151,28 @@
                     </form>
                 </div>
             </div>
-            <!--
+            
             <div class="logohere">
                 <img src="Images/Phoenix Media Logo White.png" alt="">
-            </div>-->
+            </div>
             
         </div>
-        <!--<div class="fsocialshere">
-            <div class="iicons">
+        
+        <div class="fsocialshere">
+            <div class="iiconss">
                 <a href="#"><i class="fa fa-whatsapp" ></i></a> 
                 <a href="https://www.facebook.com/Phoenixmedia4"><i class="fa fa-facebook"></i></a>
                 <a href="https://www.instagram.com/phoenix.media4"><i class="fa fa-instagram"></i></a>
             </div>
-        </div>-->
-    
+        </div>
    
-    <!--<div class="whiteline"></div>       
-    <div class="tnc">
-        <p>T &nbsp;&nbsp;&nbsp;&nbsp; e&nbsp;&nbsp;&nbsp;&nbsp;  r&nbsp;&nbsp;&nbsp;&nbsp;  m&nbsp;&nbsp;&nbsp;&nbsp;  s&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; a&nbsp;&nbsp;&nbsp;&nbsp;  n &nbsp;&nbsp;&nbsp;&nbsp; d &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    C  &nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;  n &nbsp;&nbsp;&nbsp;&nbsp; d &nbsp;&nbsp;&nbsp;&nbsp; i &nbsp;&nbsp;&nbsp;&nbsp; t &nbsp;&nbsp;&nbsp;&nbsp; o &nbsp;&nbsp;&nbsp;&nbsp; n&nbsp;&nbsp;&nbsp;&nbsp;  s&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;    A&nbsp;&nbsp;&nbsp;&nbsp;  p &nbsp;&nbsp;&nbsp;&nbsp; p &nbsp;&nbsp;&nbsp;&nbsp; l &nbsp;&nbsp;&nbsp;&nbsp; y  </p>
-    </div>-->
+        <div class="whiteline"></div>    
+       
+        <div class="tnc">
+            <p>T &nbsp;&nbsp;&nbsp;&nbsp; e&nbsp;&nbsp;&nbsp;&nbsp;  r&nbsp;&nbsp;&nbsp;&nbsp;  m&nbsp;&nbsp;&nbsp;&nbsp;  s&nbsp;&nbsp;&nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp; a&nbsp;&nbsp;&nbsp;&nbsp;  n &nbsp;&nbsp;&nbsp;&nbsp; d &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    C  &nbsp;&nbsp;&nbsp;&nbsp;o&nbsp;&nbsp;&nbsp;&nbsp;  n &nbsp;&nbsp;&nbsp;&nbsp; d &nbsp;&nbsp;&nbsp;&nbsp; i &nbsp;&nbsp;&nbsp;&nbsp; t &nbsp;&nbsp;&nbsp;&nbsp; o &nbsp;&nbsp;&nbsp;&nbsp; n&nbsp;&nbsp;&nbsp;&nbsp;  s&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;    A&nbsp;&nbsp;&nbsp;&nbsp;  p &nbsp;&nbsp;&nbsp;&nbsp; p &nbsp;&nbsp;&nbsp;&nbsp; l &nbsp;&nbsp;&nbsp;&nbsp; y  </p>
+        </div>
         
-</footer>
+    </footer>
 
     <script>
         var menuList = document.getElementById("menuList")
