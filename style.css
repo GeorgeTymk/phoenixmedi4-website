@@ -537,7 +537,7 @@ input{
         transition: 2s;
     }
     .tins{
-        margin-bottom: 40vw;
+        margin-bottom: 60vw;
         transition: 2s;
     }
     .finfo{
@@ -618,5 +618,23 @@ input{
         background-color: rgb(255, 255, 255);
         width: 100%;
         transition: 2s;
+    }
+    nav ul{
+        width: 100%;
+        background: #1b1b1b;
+        position: absolute;
+        top: 105px;
+        right: 0;
+        z-index: 2;
+        justify-content: center;
+        display: flex;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    nav ul li a{
+        color: rgb(255, 255, 255);
     }
 }
