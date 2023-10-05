@@ -6,7 +6,8 @@
 body{
     min-height: 100vh;
 }
-.imghead img{
+
+.imghead1 img{
     max-width: calc(100%);
 }
 .imghead{
@@ -43,19 +44,18 @@ body{
 }
 nav{
     flex: 1;
-    margin-top: calc(1%);
+    margin-top: calc(4%);
     margin-left: calc(2%);
-    margin-bottom: calc(1vw);
 }
 nav ul li{
     list-style: none;
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 nav ul li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 1.4vw;
+    font-size: 1.7vw;
 }
 
 nav ul li a::after{
@@ -97,7 +97,7 @@ nav ul li a:hover::after{
     align-items: center;
     border-radius: 3.5vw;
     z-index: 1;
-    margin-top: -3.6vw;
+    margin-top: -5.5vw;
     box-shadow: 0 8px 25px rgba(110, 110, 110, 0.3) ;
 }
 
@@ -216,7 +216,7 @@ nav ul li a:hover::after{
 }
 
 .container button{
-    width: 250px;
+    width: 160px;
     border: 0;
     padding: 10px 10px;
     outline: none;
@@ -256,10 +256,9 @@ nav ul li a:hover::after{
 }
 
 .tins{
-    width: 100%;
-    height: 350px;
     background-color: #ffffff;
     margin-top: 20px;
+    margin-bottom: 20vw;
     text-transform: uppercase;
 }
 .tinstxt{
@@ -267,12 +266,12 @@ nav ul li a:hover::after{
     justify-content: center;
 }
 .tinstxt p{
-    font-size: 60px;
+    font-size: 6vw;
     font-weight: 200;
 }
 .tinstxt h1{
-    font-size: 60px;
-    margin-top: -20px;
+    font-size: 6vw;
+    margin-top: -2vw;
     text-align: center;
     font-weight: 800;
 }
@@ -325,6 +324,7 @@ nav ul li a:hover::after{
     object-fit: cover;
 }
 .containerslide1{
+    margin-top: -5vw;
     justify-content: center;
     display: flex;
 }
@@ -380,35 +380,42 @@ nav ul li a:hover::after{
 
 footer{
     background: #0f0f0f;
-    max-height: calc(240px);
+    max-height: calc(540px);
     width: calc(100%);
     color: aliceblue;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     bottom: 0;
 }
 
 .finfo{
     display: flex;
+    padding: 20px;
     justify-content: center;
 }
 
 .sinfo h3{
-    font-size: 25px;
+    font-size: 3vw;
     font-weight: 800;
     margin-bottom: 10px;
 }
-.sinfo ul li{
-    text-decoration: none;
+.sinfo li{
+    list-style: none;
+    margin-left: 4vw;
+    list-style: circle;
 }
 
 .emailbox h3{
-    font-size: 25px;
+    font-size: 3vw;
     font-weight: 800;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .emailbox{
     margin-left: 40px;
+    padding: 1vw;
 }
 
 .emailbox h3{
@@ -416,27 +423,81 @@ footer{
     font-weight: 800;
 }
 .textarea{
-    border-radius: 8px;
-    width: 50vw;
+    width: 480px;
 }
-.emailr{
-    border-radius: 8px;
-    width: 50vw;
+input{
+    width: 432px;
     height: 20px;
 }
 
 .sbtm{
     width: 15vw;
-    border-radius: 6px;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #c20000;
 }
 
+.logohere img{
+    width: 10vw;
+}
+
+.fsocialshere{
+    justify-content: right;
+    display: flex;
+    padding: 10px;
+    margin-top: -160px;
+    margin-bottom: 90px;
+}
+
+.iiconss{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.iiconss i{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+.whiteline{
+    height: 0.3px;
+    max-width: calc(100%);
+    background-color: white;
+}
+
+.tnc p{
+    font-size: 1vw;
+}
+
+.tnc{
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
 @media(max-width:1170px ){
+    .tins{
+        margin-bottom: 30vw;
+        transition: 2s;
+    }
 
+    .textarea{
+        width: 280px;
+        transition: 2s;
+    }
+    input{
+        width: 232px;
+        height: 20px;
+        transition: 2s;
+    }
 }
-@media(max-width:600px ){
-    nav ul li a{font-size: calc(2.5vw);}
+@media(300px <= width <= 600px ){
+    nav ul li a{
+    font-size: calc(3.8vw);
+    }
     .menu-icon{
         display: block;
         margin-left: 430px;
@@ -467,7 +528,7 @@ footer{
     }
 
     .button :hover{
-        width: 450px;
+        width: 270px;
         transition: 1s;
     }
     .con .boxx{
@@ -475,4 +536,87 @@ footer{
         width: calc(350px - 3vw);
         transition: 2s;
     }
-}   
+    .tins{
+        margin-bottom: 40vw;
+        transition: 2s;
+    }
+    .finfo{
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .tnc p{
+        font-size: 1.5vw;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-height: calc(960vb);
+        transition: 2s;
+    }
+    .finfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: 2s;
+    }
+
+    .sinfo h3{
+        font-size: 9vw;
+        transition: 1.5s;
+    }
+
+    .sinfo ul li{
+        list-style: none;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .emailbox{
+        margin-top: 20px;
+        transition: 2s;
+    }
+
+    .logohere{
+        margin-top: 20px;
+        transition: 2s;
+    }
+
+    .logohere img{
+        width: 30vw;
+    }
+
+    .fsocialshere{
+        margin-top: 20px;
+        transition: 2s;
+    }
+    .iiconss{
+        display: flex;
+        margin-top: -40px;
+        flex-direction: row;
+        transition: 2s;
+    }
+    .iiconss i{
+        font-size: 5vw;
+        transition: 2s;
+    }
+
+    .tnc{
+        color: #ffffff;
+        z-index: 1;
+        transition: 2s;
+    }
+
+    .whiteline{
+        height: .5px;
+        margin-top: -80px;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+        transition: 2s;
+    }
+}
