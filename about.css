@@ -25,7 +25,7 @@ nav ul li{
     list-style: none;
     display: inline-block;
     margin-right: 3vw;
-    margin-top: 6vw;
+    margin-top: 3vw;
 }
 nav ul li a{
     text-decoration: none;
@@ -172,4 +172,7 @@ h1{
         flex-direction: column-reverse;
         margin: 50px;
     }
+    nav ul li a{
+        font-size: calc(3.8vw);
+        }
 }
