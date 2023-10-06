@@ -273,4 +273,7 @@ footer{
         position: static;
         flex-direction: column;
     }
+    nav ul li a{
+    font-size: calc(3.8vw);
+    }
 }   
