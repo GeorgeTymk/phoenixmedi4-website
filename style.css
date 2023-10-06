@@ -640,4 +640,9 @@ input{
     .sinfo p{
         font-size: 2.5vw;
     }
+
+        .slidder-wrapper .image-list .image-item {
+        width: 45vw;
+        transition: 2s;
+    }
 }
