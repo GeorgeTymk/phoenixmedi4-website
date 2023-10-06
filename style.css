@@ -477,7 +477,7 @@ input{
     margin-bottom: 20px;
     text-transform: capitalize;
 }
-@media(max-width:1170px ){
+@media(max-width:1280px ){
     .tins{
         margin-bottom: 30vw;
         transition: 2s;
@@ -493,7 +493,7 @@ input{
         transition: 2s;
     }
 }
-@media(300px <= width <= 600px ){
+@media(300px <= width <= 1080px ){
     nav ul li a{
     font-size: calc(3.8vw);
     }
