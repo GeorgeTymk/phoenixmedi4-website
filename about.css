@@ -11,8 +11,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     padding: 0;
-    margin-top: 15vw;
     margin: 0;
+    margin-top: 15vw;
     background-position: center;
 }
 nav{
@@ -123,7 +123,7 @@ h1{
 .imgclick{
     display: flex;
     justify-content: right;
-    margin-top: 10px;
+    margin-top: -10vw;
 
 }
 .imgclick img{
