@@ -501,13 +501,16 @@ input{
         display: block;
         margin-left: 430px;
     }
+    .slidder-wrapper .image-list .image-item {
+        width: 45vw;
+        transition: 2s;
+    }
     #menuList{
         overflow: hidden;
         transition: 2s;
     }
     .name{
         transition: 2s;
-        margin-top: -15px;
     }
     .ps{
         display: flex;
@@ -536,7 +539,7 @@ input{
         transition: 2s;
     }
     .tins{
-        margin-bottom: 60vw;
+        margin-bottom: 70vw;
         transition: 2s;
     }
     .finfo{
@@ -555,6 +558,7 @@ input{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         max-height: calc(960vb);
         transition: 2s;
     }
@@ -576,20 +580,31 @@ input{
         justify-content: center;
     }
     
+    .sinfo p{
+        font-size: .5vw;
+    }
     .emailbox{
         margin-top: 20px;
         transition: 2s;
     }
 
     .logohere{
-        margin-top: 12px;
+        margin-top: 20px;
         transition: 2s;
     }
 
     .logohere img{
-        width: 20vw;
+        width: 30vw;
     }
 
+    .logo{
+        margin-top: -18vw;
+        margin-bottom: 60px;
+        transition: 2s;
+        display: flex;
+    }
+
+    
     .fsocialshere{
         margin-top: 20px;
         transition: 2s;
@@ -618,6 +633,7 @@ input{
         width: 100%;
         transition: 2s;
     }
+
     nav ul{
         width: 100%;
         background: #1b1b1b;
@@ -636,12 +652,8 @@ input{
     nav ul li a{
         color: rgb(255, 255, 255);
     }
-    .sinfo p{
-        font-size: 2.5vw;
-    }
 
-        .slidder-wrapper .image-list .image-item {
-        width: 45vw;
-        transition: 2s;
+    .imghead{
+        margin-top: 15vw;
     }
 }
